@@ -1,2 +1,1 @@
-# TEMP
- 
+# goit-js-hw-02
