@@ -1,0 +1,21 @@
+npm create vite@latest
+.
+react
+javaScript + swc
+  npm install
+npm install --save-dev prop-types
+npm install clsx
+npx eslint --init
+npm install formik
+
+vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    sourcemap: true,
+  }
+});
