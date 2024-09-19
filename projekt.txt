@@ -8,6 +8,8 @@ npm install clsx
 npx eslint --init
 npm install formik
 npm install yup
+npm install @reduxjs/toolkit
+npm install react-redux
 
 vite.config.js
 import { defineConfig } from "vite";
